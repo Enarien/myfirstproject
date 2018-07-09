@@ -1,0 +1,150 @@
+body {
+
+	background-color: #D2B48C;
+	font-family: 'Dancing Script', cursive;
+}
+
+#container {
+
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+
+
+}
+#logo {
+
+	margin-top: 20px;
+	color: #000000;
+	font-size: 32px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	
+}
+
+#menu {
+
+	background-color: #D2B48C;
+	color: #8B4513;
+	margin-top: 20px;
+	padding: 5px;
+	margin-top: 20px;
+
+	
+}
+
+.option {
+
+	display: inline-block;
+	min-width: 50px;
+	height: 25px;
+	font-size: 20px;
+	padding: 10px;
+	border-right: 2px dotted #444444; 
+	width: 115px;
+	text-align: center;
+
+
+}
+
+.option:hover {
+
+ 	background-color: #6a2302;
+ 	cursor: pointer;
+ 	color: #ffffff;
+
+}
+
+#topbar {
+
+	background-color: #8B4513;
+	padding: 10px;
+	margin-top: 25px;	
+	display: flex;
+	align-items:center;
+	
+}
+
+#topbarL {
+
+	display: inline-block;
+	text-align: center;
+	border-right: 2px dotted #444444;
+
+}
+
+#setter {
+
+	width: 140px;
+	height: 120px;
+}
+
+#topbarR {
+
+ 	display: inline-block;
+	font-size: 44px;
+	color: #ffffff;
+	margin-left: 70px;  
+ 	
+}
+
+
+#sidebar {
+
+	width: 148px;
+	text-align: center;
+	border right: 2px dotted #8B4513;
+	float: left;
+	min-height: 483px;
+	font-size: 18px;
+	background-color: #FFDEAD;
+	margin-top: 25px;
+
+}
+.optionL {
+
+	font-size: 18px;
+	height: 28px;
+	border-bottom: 2px dotted #444444;
+	padding: 12px;
+	margin-left: 12px;
+	margin-top: 12px;
+
+}
+
+.optionL:hover {
+
+background-color: #6a2302;
+color: #ffffff;
+cursor: pointer;
+
+}
+
+#content {
+
+	float: left;
+	text-align: justify;
+	margin-top: 25px;
+	padding: 25px;
+	width: 800px;
+	background-color: #FFDEAD;
+
+
+}
+
+#subtitle {
+
+	font-size: 44px;
+	margin-left: 40px;
+
+}
+
+#footer{
+
+	text-align: center;
+	margin-top: 10px;
+	font-size: 18px;
+	background-color: #eecdac;
+	padding: 10px;
+
+}
